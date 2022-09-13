@@ -1,20 +1,9 @@
-total=0
-average=0
-count=0
-input_num=[]
-while True:
-	num = input("please input a number:")
-	if num == 'done':
-		break
-	else:
-		try:
-			num = float(num)
-			input_num.append(num)
-		except:
-			print("Invalid input")
+x=list(map(int,input().split())) #list函数用于输入多个数，int指定为整数型，split作用：添加空格
 
-for i in input_num:
-	total = total + 1
-	count = count +1
-average = total/count
-print(total,count,average)	
+a=max(x)
+
+b=min(x) #min，max函数皆为Python内置函数，可直接使用
+
+print ("max=%d"%a)
+
+print ("min=%d"%b)

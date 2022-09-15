@@ -1,8 +1,8 @@
-x=list(map(int,input().split())) #listº¯ÊıÓÃÓÚÊäÈë¶à¸öÊı£¬intÖ¸¶¨ÎªÕûÊıĞÍ£¬split×÷ÓÃ£ºÌí¼Ó¿Õ¸ñ
+x=list(map(int,input().split())) #listå‡½æ•°ç”¨äºè¾“å…¥å¤šä¸ªæ•°ï¼ŒintæŒ‡å®šä¸ºæ•´æ•°å‹ï¼Œsplitä½œç”¨ï¼šæ·»åŠ ç©ºæ ¼
 
 a=max(x)
 
-b=min(x) #min£¬maxº¯Êı½ÔÎªPythonÄÚÖÃº¯Êı£¬¿ÉÖ±½ÓÊ¹ÓÃ
+b=min(x) #minï¼Œmaxå‡½æ•°çš†ä¸ºPythonå†…ç½®å‡½æ•°ï¼Œå¯ç›´æ¥ä½¿ç”¨
 
 print ("max=%d"%a)
 

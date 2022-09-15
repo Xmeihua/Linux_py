@@ -1,0 +1,9 @@
+x=list(map(int,input().split())) #list函数用于输入多个数，int指定为整数型，split作用：添加空格
+
+a=max(x)
+
+b=min(x) #min，max函数皆为Python内置函数，可直接使用
+
+print ("max=%d"%a)
+
+print ("min=%d"%b)

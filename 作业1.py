@@ -1,9 +1,8 @@
-x=list(map(int,input().split())) #list函数用于输入多个数，int指定为整数型，split作用：添加空格
+str = input("Please input a string:")
 
-a=max(x)
+i = str.rfind(":")                 
+new_string = str[i+1:]
 
-b=min(x) #min，max函数皆为Python内置函数，可直接使用
+f = float(new_string)             
 
-print ("max=%d"%a)
-
-print ("min=%d"%b)
+print(f)
